@@ -32,6 +32,8 @@
             Console.WriteLine(pp2);
 
 
+            var testbranch1 = new StructBranch1(1);
+            testbranch1.X = 211;
         }
 
         class Point
@@ -79,7 +81,8 @@
         public record struct Point3(int X, int Y); // postioned record struct can assgin values to properties 
 
         record TestBranches(int x);
+        record TestMainBranche(int x);
 
-        record TestBranchesWithMainBranch(int x);
+        public record struct StructBranch1(int X);
     }
 }
