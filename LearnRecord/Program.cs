@@ -33,7 +33,7 @@
 
 
             var testbranch1 = new StructBranch1(1);
-            testbranch1.X = 22222;
+            testbranch1.X = 2525;
         }
 
         class Point
