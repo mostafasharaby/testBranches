@@ -33,7 +33,9 @@
 
 
             var testbranch1 = new StructBranch1(1);
-            testbranch1.X = 2626;
+
+            testbranch1.X = 4444;
+
 
         }
 
