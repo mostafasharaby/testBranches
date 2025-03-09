@@ -35,7 +35,6 @@
             var testbranch1 = new StructBranch1(1);
 
             testbranch1.X = 4444;
-            var testbranch2 = testbranch1 with { X = 5555 };
 
 
         }
