@@ -32,6 +32,8 @@
             Console.WriteLine(pp2);
 
 
+            var testbranch1 = new StructBranch1(1);
+            testbranch1.X = 10;
         }
 
         class Point
@@ -80,5 +82,7 @@
 
         record TestBranches(int x);
         record TestMainBranche(int x);
+
+        public record struct StructBranch1(int X);
     }
 }
