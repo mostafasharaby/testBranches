@@ -79,5 +79,6 @@
         public record struct Point3(int X, int Y); // postioned record struct can assgin values to properties 
 
         record TestBranches(int x);
+        record TestMainBranche(int x);
     }
 }
